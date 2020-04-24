@@ -1,16 +1,19 @@
 # bert-tfserving
 
 **\*\*\*\*\* BERT模型从模型训练到服务部署\*\*\*\*\***
-
+```
+项目详细介绍可参见：https://www.jianshu.com/p/383129b2bf7f
+凡对本项目有任何疑惑可加QQ群交流：1081332609
+```
 ## 目录结构：
 
 ```
 bert-tfserving--|--bert(geogle发布的bert项目)
-            |--chinese_L-12_H-768_A-12（下载的预训练文件）
-            |--data（训练数据）
-            |--output（保存的结果）
-            |--client(客户端)
-            |--readme.md
+                |--chinese_L-12_H-768_A-12（下载的预训练文件）
+                |--data（训练数据）
+                |--output（保存的结果）
+                |--client(客户端)
+                |--readme.md
 ```
 ## 数据准备
 
