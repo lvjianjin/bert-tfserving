@@ -69,7 +69,7 @@ docker run --name tfserving-bert \
         -v  /etc/timezone:/etc/timezone \
         -v  /etc/localtime:/etc/localtime \
         -p 8501:8501 \
-        -p 8500:8502 \
+        -p 8502:8502 \
         --mount type=bind,source=/home/python-project/bert-tfserving/output/versions,target=/models/versions \
         -e MODEL_NAME=versions \
         -t tensorflow/serving &

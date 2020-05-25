@@ -130,5 +130,5 @@ def main(max_seq_len, model_dir, num_labels):
 if __name__ == '__main__':
     max_seq_len = 128
     num_labels = 2
-    model_dir = './output/recruitment/'
+    model_dir = './output/'
     main(max_seq_len, model_dir, num_labels)
